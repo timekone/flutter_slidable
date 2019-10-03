@@ -40,7 +40,7 @@ class SlidableDismissal extends StatelessWidget {
   /// flinging can dismiss an item past any threshold less than 1.0.
   ///
   /// Setting a threshold of 1.0 (or greater) prevents a drag for
-  //  the given [SlideActionType]
+  ///  the given [SlideActionType]
   final Map<SlideActionType, double> dismissThresholds;
 
   /// Called when the widget has been dismissed, after finishing resizing.
